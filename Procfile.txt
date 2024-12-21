@@ -1,0 +1,1 @@
+web: java -jar target/backend_Projet_dintegration-0.0.1-SNAPSHOT.jar

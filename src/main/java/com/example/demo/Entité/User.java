@@ -6,6 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "\"user\"") // Échappe le mot-clé réservé
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
